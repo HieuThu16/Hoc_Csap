@@ -81,11 +81,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS Vivobook\\Desktop\\Northwind-WebApi-Project\\simpleC#\\Northwind.WebApi\\Northwind.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS Vivobook\\Desktop\\Hoc_Csap\\Northwind-WebApi-Project\\simpleC#\\Northwind.WebApi\\Northwind.WebApi.csproj",
       "projectName": "Northwind.WebApi",
-      "projectPath": "C:\\Users\\ASUS Vivobook\\Desktop\\Northwind-WebApi-Project\\simpleC#\\Northwind.WebApi\\Northwind.WebApi.csproj",
+      "projectPath": "C:\\Users\\ASUS Vivobook\\Desktop\\Hoc_Csap\\Northwind-WebApi-Project\\simpleC#\\Northwind.WebApi\\Northwind.WebApi.csproj",
       "packagesPath": "C:\\Users\\ASUS Vivobook\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS Vivobook\\Desktop\\Northwind-WebApi-Project\\simpleC#\\Northwind.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\ASUS Vivobook\\Desktop\\Hoc_Csap\\Northwind-WebApi-Project\\simpleC#\\Northwind.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

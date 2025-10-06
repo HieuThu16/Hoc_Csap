@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d6JhHuondW8=",
+  "dgSpecHash": "V3tcfbmjMQU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS Vivobook\\Desktop\\Northwind-WebApi-Project\\simpleC#\\Northwind.WebApi\\Northwind.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\ASUS Vivobook\\Desktop\\Hoc_Csap\\Northwind-WebApi-Project\\simpleC#\\Northwind.WebApi\\Northwind.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS Vivobook\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
     "C:\\Users\\ASUS Vivobook\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
