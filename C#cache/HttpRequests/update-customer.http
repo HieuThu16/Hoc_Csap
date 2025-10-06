@@ -1,0 +1,37 @@
+### Configure a variable for the web service base address.
+@base_address = http://localhost:5000/customers/
+
+### Make a PUT request to update an existing customer.
+PUT {{base_address}}ABCXY
+Content-Type: application/json
+
+{
+  "customerID": "ABCXY",
+  "companyName": "ABC Corporation Updated",
+  "contactName": "John Smith",
+  "contactTitle": "CEO",
+  "address": "123 Main Street",
+  "city": "New York",
+  "region": "NY",
+  "postalCode": "90210",
+  "country": "USA",
+  "phone": "(123) 555-1234",
+  "fax": "(123) 555-1235"
+}
+
+### Try updating a non-existent customer (should return 404)
+PUT {{base_address}}ZZZZZ
+Content-Type: application/json
+
+{
+  "customerID": "ZZZZZ",
+  "companyName": "Non-existent Company",
+  "contactName": "Nobody",
+  "contactTitle": "None",
+  "address": "Nowhere",
+  "city": "Unknown",
+  "region": "XX",
+  "postalCode": "00000",
+  "country": "None",
+  "phone": "000-000-0000"
+}

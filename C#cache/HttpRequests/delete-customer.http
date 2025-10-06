@@ -1,0 +1,11 @@
+### Configure a variable for the web service base address.
+@base_address = http://localhost:5000/customers/
+
+### Delete an existing customer (ABCXY - created in create-customer.http)
+DELETE {{base_address}}ABCXY
+
+### Try deleting a non-existent customer (should return 404)
+DELETE {{base_address}}ZZZZZ
+
+### Test custom ProblemDetails error handling
+DELETE {{base_address}}bad
