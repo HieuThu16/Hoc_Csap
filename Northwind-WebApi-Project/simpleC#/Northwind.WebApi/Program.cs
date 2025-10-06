@@ -21,6 +21,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+app.UseHttpLogging();
+
 app.UseHttpsRedirection();
 
 app.MapGet("/weatherforecast/{days:int?}",
